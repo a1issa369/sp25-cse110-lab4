@@ -31,3 +31,5 @@
 15. == means to compare two values after converting them to be the same type whereas === compares by both type and value strictly
 16. X
 17. returns newarr = [2,4,6] because we go through each element in the loop and we callback the elements with the doSomething function, which is responsible for doubling the array elements given to it one by one. Lastly, we push each new element that is doubled in the new array which is then returned to us
+18. X
+19. 1. 1 \n 3 \n 2; this is because when we call the func, console prints out 1 first, then setTimeout will delay the output of the second function off of 1000ms and as it waits to do its output, the second settimeout is running with 0ms, which means it will print 3 instantly, so 1 and 3 printed in that order, then 2 after.

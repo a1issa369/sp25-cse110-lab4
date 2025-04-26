@@ -29,4 +29,5 @@
     5. false; true holds the value of 1 and that is not equal to 2
     6. true because any non-zero number is equal to true when you use the boolean function
 15. == means to compare two values after converting them to be the same type whereas === compares by both type and value strictly
-16. 
+16. X
+17. returns newarr = [2,4,6] because we go through each element in the loop and we callback the elements with the doSomething function, which is responsible for doubling the array elements given to it one by one. Lastly, we push each new element that is doubled in the new array which is then returned to us
